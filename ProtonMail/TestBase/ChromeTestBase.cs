@@ -32,18 +32,6 @@ namespace ProtonMail.TestBase
 
         public override void AfterEach()
         {
-            //try
-            //{
-                
-            //}
-            //catch(Exception e)
-            //{
-            //    Console.WriteLine(e.Me);
-            //}
-            //finally
-            //{
-            //    Driver.Quit();
-            //}
             FoldersAndLabelsPage.CleanUpByDeletingAddedFoldersAndLabels();
 
             Driver.Quit(); 
