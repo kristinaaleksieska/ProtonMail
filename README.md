@@ -9,4 +9,6 @@ It is divided into four seperate projects:
 * Pages; Here are located the Components, their methods (located in a separate static class called {Component}Extensions, the Pages (this case only 1) and the pages extensions ({Page}ActionExtensions and {Page}VerifyExtensions). In this solution, the constants used for the testing purposes are also located here. 
 * Tests; In the Tests solution are the tests, with implementation for both Drivers, Chrome and Firefox. There is a seperate CommonTestMethods static class that stores the test methods, because all scenarios are being used for both browsers and in that way, duplication of code is being reduced.
 
+*It is important to note that in the test scenarios, there is not a test for deletion of labels, nor folders, but that has been done after each test in TearDown attribute, that goes and deletes all previously added folders and labels and makes sure that after each test, the environment is clean. This has been found to be a more flexible solution to the maximum number of folders permitted for a basic user.*
+
 
