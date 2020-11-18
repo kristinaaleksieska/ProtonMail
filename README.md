@@ -16,5 +16,6 @@ Future improvemenets:
 * Adding implicit wait for all the web elements (this is not implemented, should be implemented before any action on the elements)
 * Extracting the Locators from the component extensions to be added in their Components and use them like By's from there, instead of having some of them hard coded in the ComponentExtensions
 * Two seperate test suits, one for labels and one for folders (until now, there is not a need because there aren't as many tests, but in the future, if the page is being updated and new functionality is added)
+* Test cases for the drag and drop functionality
 
 
