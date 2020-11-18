@@ -17,5 +17,6 @@ Future improvemenets:
 * Test cases for the drag and drop functionality
 * Extracting the Locators from the component extensions to be added in their Components and use them like By's from there, instead of having some of them hard coded in the ComponentExtensions
 * Two seperate test suits, one for labels and one for folders (until now, there is not a need because there aren't as many tests, but in the future, if the page is being updated and new functionality is added)
+* In the tear down method to be deleted each folder, not just the one created, if the test fails somewhere, not those expected to be deleted
 
 
